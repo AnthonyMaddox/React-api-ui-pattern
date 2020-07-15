@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import "./Buttons.css";
-
 
 function ButtonOne(props) {
   return (
     <div>
-      <div className="quote">{props.newQuote}</div>
+      <div id="bOne" className="quoteDiv quote"  >{props.newQuote} </div>
     </div>
   );
 }

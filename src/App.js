@@ -29,20 +29,58 @@ class App extends Component {
       dataReady: false,
     };
   }
+  handleRClick = (e) => {
+    e.preventDefault();
+    let quoteDiv = document.querySelector("#bOne");
+    console.log(quoteDiv);
+    quoteDiv.classList.toggle("display");
+  };
+  handleFClick = (e) => {
+    e.preventDefault();
+    let quoteDiv = document.querySelector("#bTwo");
+    console.log(quoteDiv);
+    quoteDiv.classList.toggle("display");
+  };
+  handleGClick = (e) => {
+    e.preventDefault();
+    let quoteDiv = document.querySelector("#bThree");
+    console.log(quoteDiv);
+    quoteDiv.classList.toggle("display");
+  };
+  handleAClick = (e) => {
+    e.preventDefault();
+    let quoteDiv = document.querySelector("#bFour");
+    console.log(quoteDiv);
+    quoteDiv.classList.toggle("display");
+  };
 
+  /*handleClick = (e) => {
+    e.preventDefault();
+    let quoteDiv = document.querySelectorAll(".button");
+    console.log(quoteDiv);
+    for (let i = 0; i < quoteDiv.length; i++) {
+      quoteDiv.classList.toggle("display");
+    }
+  };*/
   render() {
     return (
       <div className="App">
         <div className="accordianDiv">
-          <button className="button" id="bOne">
+          <button className="button" onClick={this.handleRClick}>
             Random Quote
           </button>
           <ButtonOne newQuote={this.state.newQuote} />
-          <button className="button">Food Quote</button>
+          <button className="button" onClick={this.handleFClick}>
+            Food Quote
+          </button>
           <ButtonTwo newFoodQuote={this.state.foodQuote} />
-          <button className="button">Government Quote</button>
+          <button className="button" onClick={this.handleGClick}>
+            Government Quote
+          </button>
           <ButtonThree newGovQuote={this.state.govQuote} />
-          <button className="button">Alcohol Quote</button>
+          <button className="button" onClick={this.handleAClick}>
+            Alcohol Quote
+          </button>
           <ButtonFour newAlcQuote={this.state.alcQuote} />
         </div>
       </div>

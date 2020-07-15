@@ -10,12 +10,12 @@
 .accordianDiv {
   height: 60vh;
   width: 80vw;
-  border: 2px solid black;
 }
 .quote {
   height: 10vh;
   width: 80vw;
   background-color: cornflowerblue;
+  text-align: center;
   display: none;
 }
 .display {

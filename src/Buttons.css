@@ -1,0 +1,10 @@
+.button {
+   height: 5vh;
+   width: 80vw;
+   background-color: gray;
+   outline: none;
+}
+.quote {
+   height: 10vh;
+   width: 80vw;
+}

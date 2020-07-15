@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./Buttons.css";
 
-function ButtonTwo (props) {
-   return (<div>
-      <button className="button">Food Quote</button>
-      <div className="quote">{props.newQuote}</div>
-      </div>
-   )
+function ButtonTwo(props) {
+  console.log(props);
+  return (
+    <div>
+      <div className="quote">{props.newFoodQuote}</div>
+    </div>
+  );
 }
 
-export default ButtonTwo
+export default ButtonTwo;

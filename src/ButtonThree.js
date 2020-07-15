@@ -4,8 +4,7 @@ import "./Buttons.css";
 function ButtonThree(props) {
   return (
     <div>
-      <button className="button">Government Quote</button>
-      <div className="quote">{props.newQuote}</div>
+      <div className="quote">{props.newGovQuote}</div>
     </div>
   );
 }

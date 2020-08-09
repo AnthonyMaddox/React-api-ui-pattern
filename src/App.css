@@ -1,26 +1,26 @@
 .appBody {
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color: rgb(252, 252, 252);
-   background-color: black
-   /*background-image: url('src/ron.jpg');
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(252, 252, 252);
+  background-color: black;
+  /*background-image: url('src/ron.jpg');
    */
 }
 
 .top {
-   background-color: grey;
-   height: 7vh;
-   margin-top: -20px;
-   padding-top: 20px;
+  background-color: grey;
+  height: 7vh;
+  margin-top: -16px;
+  padding-top: 20px;
 }
 .topTitle {
-   font-size: 22px;
-   padding-left: 40px;
+  font-size: 20px;
+  padding-left: 40px;
 }
 span {
-   float: right;
-   font-style: italic;
-   font-size: 12px;
-   padding-right: 20px;
+  float: right;
+  font-style: italic;
+  font-size: 12px;
+  padding-right: 30px;
 }
 
 .App {

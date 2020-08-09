@@ -102,7 +102,9 @@ class App extends Component {
     return (
       <div className="appBody">
         <div className="top">
-          <p className="topTitle">Ron Swanson Quotes:<span>from the Ron Swanson Api</span></p>
+          <p className="topTitle">
+            Ron Swanson Quotes:<span>from the Ron Swanson Api</span>
+          </p>
         </div>
         <div className="App">
           <div className="accordianDiv">

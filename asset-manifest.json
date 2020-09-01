@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.54c12a3a.chunk.css",
-    "main.js": "/static/js/main.77e6120e.chunk.js",
-    "main.js.map": "/static/js/main.77e6120e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8aefa227.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8aefa227.js.map",
-    "static/js/2.8870f1c0.chunk.js": "/static/js/2.8870f1c0.chunk.js",
-    "static/js/2.8870f1c0.chunk.js.map": "/static/js/2.8870f1c0.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c0a5fdc444285d38e5e2c6d5faf6dc6f.js": "/precache-manifest.c0a5fdc444285d38e5e2c6d5faf6dc6f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.54c12a3a.chunk.css.map": "/static/css/main.54c12a3a.chunk.css.map",
-    "static/js/2.8870f1c0.chunk.js.LICENSE.txt": "/static/js/2.8870f1c0.chunk.js.LICENSE.txt"
+    "main.css": "/AnthonyMaddox/React-api-ui-pattern/static/css/main.54c12a3a.chunk.css",
+    "main.js": "/AnthonyMaddox/React-api-ui-pattern/static/js/main.b1eee524.chunk.js",
+    "main.js.map": "/AnthonyMaddox/React-api-ui-pattern/static/js/main.b1eee524.chunk.js.map",
+    "runtime-main.js": "/AnthonyMaddox/React-api-ui-pattern/static/js/runtime-main.e5e9cc3e.js",
+    "runtime-main.js.map": "/AnthonyMaddox/React-api-ui-pattern/static/js/runtime-main.e5e9cc3e.js.map",
+    "static/js/2.8870f1c0.chunk.js": "/AnthonyMaddox/React-api-ui-pattern/static/js/2.8870f1c0.chunk.js",
+    "static/js/2.8870f1c0.chunk.js.map": "/AnthonyMaddox/React-api-ui-pattern/static/js/2.8870f1c0.chunk.js.map",
+    "index.html": "/AnthonyMaddox/React-api-ui-pattern/index.html",
+    "precache-manifest.8198ae924730ce8ab947d3c627bc6283.js": "/AnthonyMaddox/React-api-ui-pattern/precache-manifest.8198ae924730ce8ab947d3c627bc6283.js",
+    "service-worker.js": "/AnthonyMaddox/React-api-ui-pattern/service-worker.js",
+    "static/css/main.54c12a3a.chunk.css.map": "/AnthonyMaddox/React-api-ui-pattern/static/css/main.54c12a3a.chunk.css.map",
+    "static/js/2.8870f1c0.chunk.js.LICENSE.txt": "/AnthonyMaddox/React-api-ui-pattern/static/js/2.8870f1c0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8aefa227.js",
+    "static/js/runtime-main.e5e9cc3e.js",
     "static/js/2.8870f1c0.chunk.js",
     "static/css/main.54c12a3a.chunk.css",
-    "static/js/main.77e6120e.chunk.js"
+    "static/js/main.b1eee524.chunk.js"
   ]
 }
